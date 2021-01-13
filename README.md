@@ -3,7 +3,7 @@ Aplicación que oriente a los alumnos para encontrar respuesta a las dudas sobre
 ##
 Ejemplo: 
 ##
-•	¿En qué departamento puedo obtener mi constancia de créditos por actividades extra escolares?
-•	¿En que semestre empiezo servicio social?
-•	¿A dónde puede solicitar una constancia de calificaciones?
+•	¿En qué departamento puedo obtener mi constancia de créditos por actividades extra escolares?#
+•	¿En que semestre empiezo servicio social?#
+•	¿A dónde puede solicitar una constancia de calificaciones?#
 
