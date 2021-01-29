@@ -7,3 +7,31 @@
 #promo {
     color: rgb(141, 8, 8);
 }
+.product {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative; 
+  border: 1px solid #dad7d7; }
+.product .text .pricing {
+    width: 100%;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+
+    .product .img-prod {
+        position: relative;
+        display: block;
+        overflow: hidden; }
+
+        .product .img-prod span.status {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 2px 10px;
+            color: #fff;
+            font-weight: 300;
+            background: #82ae46;
+            font-size: 12px; }
