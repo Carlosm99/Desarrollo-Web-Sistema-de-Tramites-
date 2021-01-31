@@ -2,7 +2,7 @@
   background-color: rgb(255, 196, 0);
 }
 #navbarone {
-  background-color: yellow;
+  background-color: rgb(245, 245, 235);
 }
 #promo {
   color: rgb(141, 8, 8);
@@ -118,7 +118,7 @@
 }
 .product .img-prod:hover img,
 .product .img-prod:focus img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .heading-section {
@@ -163,10 +163,6 @@
   width:100%
 }
 
-form {
- 
-}
-
 input {
   padding:10px;
 }
@@ -182,4 +178,7 @@ input {
   border-radius: 5px;
   border-style: solid;
   
+}
+.logo { 
+  margin-left: -35px;
 }
