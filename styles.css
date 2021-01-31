@@ -1,5 +1,6 @@
 #alertone {
   background-color: rgb(255, 196, 0);
+  font-size: 12px;
 }
 #navbarone {
   background-color: rgb(245, 245, 235);
@@ -11,8 +12,8 @@
   display: block;
   width: 100%;
   margin-bottom: 30px;
-  position: relative;
-  border: 1px solid #dad7d7;
+  position:relative;
+  border: 2px solid #dad7d7;
 }
 .product .text .pricing {
   width: 100%;
@@ -181,4 +182,7 @@ input {
 }
 .logo { 
   margin-left: -35px;
+}
+.my-own-slide-style{
+height: 475px;
 }
