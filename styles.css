@@ -239,13 +239,16 @@ height: 500px;
       color: #000000; }
 .subheader{
   font-weight: 800;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 166, 0);
   font-size: 78px;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
   text-transform: uppercase;
   align-items: center;
   margin-top: 500px;
+ }
+ .subtitle{
+   color: black;
  }
   #image{
     position: absolute; 
@@ -261,4 +264,6 @@ height: 500px;
 
   }
 
-      
+  iframe[seamless] {
+    border: none;
+}    
