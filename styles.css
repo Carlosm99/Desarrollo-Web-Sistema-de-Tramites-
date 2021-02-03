@@ -133,12 +133,20 @@
   font-style: italic;
   color: #82ae46;
 }
+
 .heading-section h2 {
   position: relative;
   font-size: 40px;
   font-weight: 600;
   color: #000000;
   font-family: "Poppins", Arial, sans-serif;
+}
+.heading-section h3 {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #19f006;
+  font-family: 'Architects Daughter', cursive;
 }
 @media (max-width: 767.98px) {
   .heading-section h2 {
@@ -184,7 +192,8 @@ input {
   margin-left: -35px;
 }
 .my-own-slide-style{
-height: 500px;
+height: 595px;
+
 }
 .list-unstyled {
   padding-left: 0;
@@ -237,7 +246,7 @@ height: 500px;
       color: #000000; }
     .ftco-footer-social li a:hover {
       color: #000000; }
-.subheader{
+.subheader1{
   font-weight: 800;
   color: rgb(255, 166, 0);
   font-size: 78px;
@@ -246,9 +255,30 @@ height: 500px;
   text-transform: uppercase;
   align-items: center;
   margin-top: 500px;
+  transform: translateX(-20%);
  }
- .subtitle{
+ 
+ 
+ .subtitle1{
    color: black;
+   transform: translateX(-20%);
+ }
+ .subheader2{
+  font-weight: 800;
+  color: rgb(255, 166, 0);
+  font-size: 78px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  align-items: center;
+  margin-top: 500px;
+  transform: translateX(20%);
+ }
+ 
+ 
+ .subtitle2{
+   color: black;
+   transform: translateX(20%);
  }
   #image{
     position: absolute; 
@@ -264,8 +294,57 @@ height: 500px;
 
   }
 
-  iframe[seamless] {
-    border: none;
-}    
+.titlestyle{
+  font-family: 'Special Elite', cursive;
+  font-size: 24px;
+}
+.carousel-caption{
+  top: 10%;
+  transform: translateY(-70%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
 
+.fixhigh1{
+  top: 40%;
+  transform: translateY(-40%);
+  transform: translateX(-20%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+ -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
 
+.fixhigh2{
+  top: 40%;
+  transform: translateY(-40%);
+  transform: translateX(20%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+ -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.carousel-indicators2 {
+  top: 40%;
+  transform: translateY(-40%);
+  transform: translateX(-20%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+ -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+ 
+}
+.carousel-indicators li {
+  width: 38px;
+    cursor: pointer;
+    background-color: #000000;
+       
+}
+.carousel-indicators .active {
+   background-color: rgb(255, 166, 0);
+}
+.view{
+  background-color: blue;
+}
