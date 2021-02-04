@@ -9,23 +9,97 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap" rel="stylesheet">
+
+    <!------animaciones
+  ------------------>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ 
+
+  <!--Uso de BootstrapCDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+  <!----Iconos para el proyecto
+  -------------------------->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <!--Uso de css propio-->
+  <link href="styles.css" rel="stylesheet" />
+  
     
      <!--Uso de css propio-->
      <link href="styleforfruits.css" rel="stylesheet" />
     <title>Document</title>
 </head>
 <body>
+
+  <!---header del proyecto------
+  ----------------------------->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand titlestyle" href="#">Lu' um Ha</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="start page.html">Inicio <i class="fas fa-home"></i></a>
+          
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Producto <i class="fab fa-product-hunt"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Todos los productos</a>
+            <a class="dropdown-item" href="#">Frutas deshidratadas</a>
+            <a class="dropdown-item" href="#">Chips de verduras </a>
+            <a class="dropdown-item" href="#">Obleas de amaranto </a>
+            <a class="dropdown-item" href="#">Maíz inflado </a>
+            <a class="dropdown-item" href="#">Nueces y semillas</a>
+            <a class="dropdown-item" href="#">Harinas sin gluten  </a>
+            <a class="dropdown-item" href="#">Totopos sin gluten </a>
+            <a class="dropdown-item" href="#">Endulzantes naturales </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#un-ancla1">Contacto <i class="fas fa-phone"></i></a>
+        </li>    
+      </ul>
+    </div>  
+    </nav>
+    <div class="toppart">
+        <div class="container">
+          <div class="row no-gutters align-items-center justify-content-center">
+            <div class="col-md-9 opacity">
+                <p class="breadcrumbs"><span class="mr-2"><a class="colortext" href="start page.html"><i class="fas fa-home"></i> INICIO </a></p>
+              <h1 class="mb-0 bread">Frutas: tabla de calorías</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
     <div class="container">
-        <h1>frutas</h1>
+        
         <div id="searchWrapper">
             <input
                 type="text"
                 name="searchBar"
                 id="searchBar"
-                placeholder="Busque la verdura o fruta que quiera"
+                placeholder="Buscar en la tabla"
                 
             />
         </div>
+        <br>
         <ul id="charactersList"></ul>
     </div>
     
