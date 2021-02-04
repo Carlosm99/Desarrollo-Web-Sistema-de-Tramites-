@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const charactersList = document.getElementById('charactersList');
 let alldata = [];
 
@@ -28,6 +27,3 @@ const displayCharacters = (fruits) => {
 };
 
 loadCharacters();
-
-=======
->>>>>>> f428592601c76bf40db8a8ab0a1029f2541f44b2
