@@ -41,3 +41,24 @@ const displayCharacters = (fruits) => {
 };
 
 loadCharacters();
+
+
+
+
+function validarelformulario(){
+    valordeemail = document.getElementById("regemail").value;
+    
+    var regexmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+   
+    
+    var reusltadomail = regexmail.exec(valordeemail).slice();       
+    
+    
+    if (reusltadomail){
+       
+        document.getElementById("replace").innerHTML = "El correo electrónico: "+valordeemail.bold()+" es correcto";
+       
+    } 
+    
+    return false;    
+}

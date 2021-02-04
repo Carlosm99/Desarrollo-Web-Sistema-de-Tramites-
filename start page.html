@@ -121,7 +121,7 @@
           <a class="nav-link" href="#">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#un-ancla1">Contacto <i class="fas fa-phone"></i></a>
+          <a class="nav-link" href="#un-ancla1">Suscríbase <i class="far fa-bell"></i></a>
         </li>    
       </ul>
     </div>  
@@ -433,14 +433,17 @@
   </section>
 
 
-
+  <a id="un-ancla1"></a>
+  <br>
+  <br>
+  <br>
 <!---------------------
 Section for subscribe
 ----------------------->
 <section class="bg-light text-center text-lg-start">
   <!-- Grid container -->
   <div class="container p-4 pb-0 mx-auto" style="width: 1000px;">
-    <form action="">
+    <form  onsubmit ="return validarelformulario()">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
@@ -453,8 +456,8 @@ Section for subscribe
         <div class="col-md-5 col-12 mb-4 mb-md-0">
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input type="email" id="form5Example2" class="form-control" />
-            <label class="form-label" for="form5Example2">Dirección de correo electrónico</label>
+            <input type="email" id="regemail" class="form-control" />
+            <label class="form-label" id="replace" for="form5Example2">Dirección de correo electrónico</label>
           </div>
         </div>
         <!--Grid column-->
@@ -462,7 +465,7 @@ Section for subscribe
         <!--Grid column-->
         <div class="col-auto mb-4 mb-md-0">
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary mb-4">
+          <button onclick="return validarelformulario()" type="submit" class="btn btn-primary mb-4">
           Suscribir
           </button>
         </div>
@@ -473,7 +476,7 @@ Section for subscribe
   </div>
   <!-- Grid container -->
 </section >
-<a id="un-ancla1"></a>
+
 <!------section for testimony
 ----------------------------->
 <div  class="container">
