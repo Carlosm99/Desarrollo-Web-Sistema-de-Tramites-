@@ -1,0 +1,82 @@
+[
+  {
+    "name" : "Apple",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg"
+  },
+  {
+    "name" : "Banana",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg"
+  },
+  {
+    "name" : "Grapes",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg"
+  },
+  {
+    "name" : "Pineapple",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg"
+  },
+  {
+    "name" : "Watermelon",
+    "image" : "https://p0.piqsels.com/preview/901/986/574/watermelon-slice-isolated.jpg"
+  },
+  {
+    "name" : "Lemmon",
+    "image" : "https://live.staticflickr.com/3764/11781986025_d3bbb5dc93_b.jpg"
+  },
+  {
+    "name" : "Orange",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg"
+  },
+  {
+    "name" : "Nectarine",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/3/33/Nectarine.jpg"
+  },
+  {
+    "name" : "Strawberry",
+    "image" : "https://p1.pxfuel.com/preview/175/953/320/strawberry-red-fruit-food.jpg"
+  },
+  {
+    "name" : "Pear",
+    "image" : "https://www.publicdomainpictures.net/pictures/10000/velka/1-12481621202qw5.jpg"
+  },
+  {
+    "name" : "Apple",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg"
+  },
+  {
+    "name" : "Banana",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg"
+  },
+  {
+    "name" : "Grapes",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg"
+  },
+  {
+    "name" : "Pineapple",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg"
+  },
+  {
+    "name" : "Watermelon",
+    "image" : "https://p0.piqsels.com/preview/901/986/574/watermelon-slice-isolated.jpg"
+  },
+  {
+    "name" : "Lemmon",
+    "image" : "https://live.staticflickr.com/3764/11781986025_d3bbb5dc93_b.jpg"
+  },
+  {
+    "name" : "Orange",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg"
+  },
+  {
+    "name" : "Nectarine",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/3/33/Nectarine.jpg"
+  },
+  {
+    "name" : "Strawberry",
+    "image" : "https://p1.pxfuel.com/preview/175/953/320/strawberry-red-fruit-food.jpg"
+  },
+  {
+    "name" : "Pear",
+    "image" : "https://www.publicdomainpictures.net/pictures/10000/velka/1-12481621202qw5.jpg"
+  }
+]

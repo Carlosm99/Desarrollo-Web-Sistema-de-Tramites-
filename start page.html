@@ -123,13 +123,13 @@
           <a class="nav-link" href="#">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto <i class="fas fa-phone"></i></a>
+          <a class="nav-link" href="#un-ancla1">Contacto <i class="fas fa-phone"></i></a>
         </li>    
       </ul>
     </div>  
     <form >
       <div class="form-element textfield ">
-        <input class="submit-btns"  placeholder="¿Que esta buscando?" type="text">
+        <input class="submit-btns"  placeholder="¿Que esta buscando?" type="text" id="articleSearchInput">
         
       </div>
 
@@ -199,7 +199,7 @@
     <!--------la secion de los contonedores de los productos-->
     <div class="container">
       <div class="row">
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-1.jpg" />
               <span class="status">20%</span>
@@ -230,7 +230,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-2.jpg" alt="Colorlib Template" />
               <div class="overlay"></div>
@@ -258,7 +258,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-3.jpg" alt="Colorlib Template" />
               <div class="overlay"></div>
@@ -286,7 +286,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-4.jpg" alt="Colorlib Template" />
               <div class="overlay"></div>
@@ -315,7 +315,7 @@
           </div>
         </div>
 
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-5.jpg" alt="Colorlib Template" />
               <span class="status">30%</span>
@@ -346,7 +346,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-6.jpg" alt="Colorlib Template" />
               <div class="overlay"></div>
@@ -374,7 +374,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-7.jpg" alt="Colorlib Template" />
               <div class="overlay"></div>
@@ -402,7 +402,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="col col-md-6 col-lg-3">
+        <div data-aos="fade-up" class="col col-md-6 col-lg-3" id="card">
           <div class="product">
             <a href="#" class="img-prod"><img class="img-fluid" src="assets/product-8.jpg" alt="Colorlib Template" />
               <div class="overlay"></div>
@@ -474,11 +474,11 @@ Section for subscribe
     </form>
   </div>
   <!-- Grid container -->
-</section>
-
+</section >
+<a id="un-ancla1"></a>
 <!------section for testimony
 ----------------------------->
-<div class="container">
+<div  class="container">
   <div class="row justify-content-center mb-3 pb-3">
     <div  class="col-md-12 heading-section text-center">
       <span   class="subheading">testmonio de clientes</span>
@@ -498,7 +498,7 @@ Section for subscribe
     <!---card-->
     <div class="card testimonial-card">
       <!--to place color to the card-->
-      <div class="card-img-top bg-primary p-3 mb-2 view">       
+      <div class="card-img-top bg-primary p-3 mb-2 ">       
       </div>
             <!--to place the avatar-->   
       <div class="avatar mx-auto white">
@@ -512,7 +512,7 @@ Section for subscribe
            <!---Quotes of what the person weill say-->
            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left"></i> Este mercado representa conceptos fundamentales en la economía del país.</p>
         </div>
-        <div class="card-footer">
+        <div class="card-footer ">
           <small class="text-muted">Última actualización hace 3 minutos</small>
         </div>
       
@@ -524,10 +524,11 @@ Section for subscribe
         <!--Card-->
         <div class="card testimonial-card">
           <!--Background color-->
-          <div class="card-up p-3 mb-2">
+          <div class="card-img-top p-3 mb-2 bg-primary ">
+            
+            </div>
             <div class="avatar mx-auto white">
               <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="rounded-circle img-fluid">
-            </div>
           </div>
           <!--Avatar-->
           
@@ -551,13 +552,13 @@ Section for subscribe
         <!--Card-->
         <div class="card testimonial-card">
           <!--Background color-->
-          <div class="card-up p-3 mb-2">
-            <!--Avatar-->
-          <div class="avatar mx-auto white">
+          <div class="card-img-top p-3 mb-2 bg-primary ">
+           
+          </div>
+           <!--Avatar-->
+           <div class="avatar mx-auto white">
             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid">
           </div>
-          </div>
-          
           <div class="card-body">
             <!--Name-->
             <h4 class="font-weight-bold mb-4">Francis Cawich</h4>
@@ -577,13 +578,13 @@ Section for subscribe
                 <!--Card-->
                 <div class="card testimonial-card">
                   <!--Background color-->
-                  <div class="card-up p-3 mb-2">
-                    <!--Avatar-->
+                  <div class="card-img-top p-3 mb-2 bg-primary ">
+                    
+                  </div>
+                  <!--Avatar-->
                   <div class="avatar mx-auto white">
                     <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle img-fluid">
                   </div>
-                  </div>
-                  
                   <div class="card-body">
                     <!--Name-->
                     <h4 class="font-weight-bold mb-4">Jorge Sosa</h4>
