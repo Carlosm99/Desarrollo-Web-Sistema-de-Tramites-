@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
 }
 h1 {
-    color: #eee;
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
 }
 .container {
@@ -34,19 +34,31 @@ h1 {
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
         'name image'
-        'house image';
+        'racion image'
+        'calorias image';
     text-align: left;
 }
 
 .character > h2 {
     grid-area: name;
     margin-bottom: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    
 }
 
 .character > p {
-    grid-area: house;
+    grid-area: racion;
     margin: 0;
     margin-top: -18px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+}
+.character > h4 {
+    grid-area: calorias;
+    margin: 0;
+    margin-top: -16px;
+    font-family: 'Amatic SC', cursive;
 }
 
 .character > img {
@@ -69,7 +81,7 @@ h1 {
 }
 
 #searchWrapper::after {
-    content: '🔍';
+    content: '';
     position: absolute;
     top: 7px;
     right: 15px;
