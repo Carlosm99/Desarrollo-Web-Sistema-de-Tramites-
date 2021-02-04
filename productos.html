@@ -45,7 +45,7 @@
         <div class="col-md-4 offset-md-0 offset-sm-2 offset-1 col-sm-8 col-10 offset-sm-2 offset-1 mb-3">
             <div class="card">
                 <div class="px-2 red text-uppercase">MANZANA</div>
-                <div class="d-flex justify-content-center"> <img src="https://www.conasi.eu/blog/wp-content/uploads/2020/02/frutas-secas-deshidratas-1-1-900x600.jpg" class="product" alt=""> </div> <b class="px-2">
+                <div class="d-flex justify-content-center"> <img src="https://bit.ly/2MQfTLI" class="product" alt=""> </div> <b class="px-2">
                     <p class="h4">MANZANA FRESCO Y DESECADO </p>
                 </b>
                 <div class="d-flex align-items-center justify-content-start rating border-top border-bottom py-2">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="d-flex align-items-center justify-content-between py-2 px-3">
                     <div class="h4"><span></span>59PESOS</div>
-                    <div> <button class="btn btn-dark text-uppercase"> COMPRA AHORA </button> </div>
+                    <div> <button onclick="box1()"class=" add btn btn-dark text-uppercase"> AGREGAR</button> </div>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="d-flex align-items-center justify-content-between py-2 px-3">
                     <div class="h4"><span></span>30 PESOS </div>
-                    <div> <button class="btn btn-dark text-uppercase"> COMPRA AHORA  </button> </div>
+                    <div> <button onclick="box1()" class=" add2 btn btn-dark text-uppercase"> AGREGAR </button> </div>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="d-flex align-items-center justify-content-between py-2 px-3">
                     <div class="h4"><span>$</span>80 PESOS</div>
-                    <div> <button class="btn btn-dark text-uppercase"> COMPRA AHORA</button> </div>
+                    <div> <button onclick="box1()" class=" add3 btn btn-dark text-uppercase"> AGREGAR</button> </div>
                 </div>
             </div>
         </div>
@@ -101,14 +101,14 @@
                 </div>
                 <div class="d-flex align-items-center justify-content-between py-2 px-3">
                     <div class="h4"><span>$</span>30 PESOS </div>
-                    <div> <button class="btn btn-dark text-uppercase"> COMPRA AHORA </button> </div>
+                    <div> <button  onclick="box1()" class="  btn btn-dark text-uppercase"> AGREGAR </button> </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4 offset-md-0 offset-sm-2 offset-1 col-sm-8 col-10 offset-sm-2 offset-1 my-md-0 my-3">
             <div class="card">
                 <div class="px-2 red text-uppercase">PLANTANO</div>
-                <div class="d-flex justify-content-center"> <img src="https://www.ecestaticos.com/image/clipping/600/450/a46b999eb27d1fbaee2709f01d435e70/son-de-verdad-saludables-las-frutas-deshidratadas.jpg" class="product" alt=""> </div> <b class="px-2">
+                <div class="d-flex justify-content-center"> <img src="https://bit.ly/3pHK2v7" class="product" alt=""> </div> <b class="px-2">
                     <p class="h4">PLATANO SECO FRSCO </p>
                 </b>
                 <div class="d-flex align-items-center justify-content-start rating border-top border-bottom py-2">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="d-flex align-items-center justify-content-between py-2 px-3">
                     <div class="h4"><span>$</span>40 PESOS </div>
-                    <div> <button  onclick ="box1();" class="btn btn-dark text-uppercase"> COMPRA AHORA  </button> </div>
+                    <div> <button   onclick="box1()" class="  btn btn-dark text-uppercase"> AGREGAR  </button> </div>
                 </div>
             </div>
         </div>
@@ -131,15 +131,19 @@
                     
                 </div>
                 <div class="d-flex align-items-center justify-content-between py-2 px-3">
-                   
                     <div class="h4"><span>$</span>70 PESOS</div>
-                    <div> <button class="btn btn-dark "> Agregar </button> </div>
+
+                    <button onclick="box1()" class=" btn btn-dark ">Agregar</button> 
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script type="text/javascript" src="funcionalidad.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+<script type="text/javascript" src="producto.js"></script>
+
+
+
 </body>
 </html>
