@@ -1,0 +1,161 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "Manzana",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "calorias": "Calorías: 43 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 2,
+      "name": "Plátano",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+      "calorias": "Calorías: 83 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 3,
+      "name": "Uvas",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+      "calorias": "Calorías: 43 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 4,
+      "name": "Piña",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+      "calorias": "Calorías: 53 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 5,
+      "name": "Sandía",
+      "image": "https://p0.piqsels.com/preview/901/986/574/watermelon-slice-isolated.jpg",
+      "calorias": "Calorías: 46 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 6,
+      "name": "Limón",
+      "image": "https://live.staticflickr.com/3764/11781986025_d3bbb5dc93_b.jpg",
+      "calorias": "Calorías: 73 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 7,
+      "name": "Naranja",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg",
+      "calorias": "Calorías: 93 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 8,
+      "name": "Nectarina",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Nectarine.jpg",
+      "calorias": "Calorías: 58 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 9,
+      "name": "Fresa",
+      "image": "https://p1.pxfuel.com/preview/175/953/320/strawberry-red-fruit-food.jpg",
+      "calorias": "Calorías: 67 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 10,
+      "name": "Pera",
+      "image": "https://www.publicdomainpictures.net/pictures/10000/velka/1-12481621202qw5.jpg",
+      "calorias": "Calorías: 54 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 11,
+      "name": "Aguacate",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71UHPH8dmcL._AC_SX425_.jpg",
+      "calorias": "Calorías: 154 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 12,
+      "name": "Melón",
+      "image": "https://storage.googleapis.com/portalfruticola/2019/11/9ed97253-mel%C3%B3n-adobestock_189510127-1024x710.jpeg",
+      "calorias": "Calorías: 14 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 13,
+      "name": "Mango",
+      "image": "https://storage.googleapis.com/portalfruticola/2019/12/51d959a1-mango-adobestock_178731548-e1576248947478.jpeg",
+      "calorias": "Calorías: 47 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 14,
+      "name": "Mandarinas",
+      "image": "https://cdn1.frutapasion.es/wp-content/uploads/2019/11/mandarina-0.jpg",
+      "calorias": "Calorías: 32 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 15,
+      "name": "Kiwi",
+      "image": "https://static4.abc.es/media/familia/2018/04/03/kiwi-kC0--620x349@abc.jpg",
+      "calorias": "Calorías: 52 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 16,
+      "name": "Guayaba",
+      "image": "https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2019/09/shutterstock_1278486652.jpg",
+      "calorias": "Calorías: 69 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 17,
+      "name": "Frambuesa",
+      "image": "https://tradecorp.mx/wp-content/uploads/2015/06/shutterstock_123228247.jpg",
+      "calorias": "Calorías: 29 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 18,
+      "name": "Ciruela verde",
+      "image": "https://thumbs.dreamstime.com/b/ciruela-claudia-11199460.jpg",
+      "calorias": "Calorías: 27 kcal",
+      "Ración": "100g"
+    }
+  ],
+
+  "productos": [
+    {
+      "id": 1,
+      "name": "francis procut 1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "calorias": "Calorías: 43 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 2,
+      "name": "francis procut 2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "calorias": "Calorías: 43 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 3,
+      "name": "francis procut 1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "calorias": "Calorías: 43 kcal",
+      "Ración": "100g"
+    },
+    {
+      "id": 4,
+      "name": "francis procut 1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "calorias": "Calorías: 43 kcal",
+      "Ración": "100g"
+    }
+  ]
+}
